@@ -7,13 +7,13 @@
 
 @media screen and (max-width: 768px) {
    .container {
-       width: 100vw;
+       width: 100%;
    }
 }
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
 
     .row {
@@ -24,5 +24,15 @@
 
     .row .col {
         width: 100%;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        margin-bottom: 0;
     }
 }
